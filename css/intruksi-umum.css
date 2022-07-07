@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --gradient: linear-gradient(115.51deg, #D163D8 11.71%, #602FD3 66.15%);
+    --pink: rgba(255, 71, 148, 1);
+    --black: #303030;
+    --blue: #050039;
+    --gray: #A6A7A9;
+    --white: #FEFEFE;
+    --yellow: rgba(255, 197, 0, 1);
+    --gray-light: rgba(231, 231, 231, 1);
+}
+
+@media (max-width: 575.98px) {
+    nav {
+        margin: 0 0 40px 0;
+    }
+
+    nav .container-fluid {
+        padding: 20px 50px !important;
+    }
+
+    nav p,
+    .muncul p {
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 576px) {
+    nav {
+        margin: 0 0 40px 0;
+    }
+
+    nav p,
+    .muncul p {
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    nav {
+        margin: 0 0 40px 0;
+    }
+
+    nav p,
+    .muncul p {
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    nav {
+        margin: 0px 30px 40px 30px;
+    }
+
+    nav p,
+    .muncul p {
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    nav {
+        margin: 0px 30px 40px 30px;
+    }
+
+    nav p,
+    .muncul p {
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
+
+/* NAVIGASI */
+nav {
+    background: var(--gradient);
+    border-radius: 0px 0px 100px 100px;
+    color: var(--white);
+    padding: 0 !important;
+}
+
+nav .container-fluid {
+    padding: 20px 100px;
+}
+
+span {
+    line-height: 27px;
+    color: var(--yellow);
+}
+
+nav h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+nav .avatar {
+    width: 50px;
+    height: 50px;
+    background-color: var(--black);
+    border-radius: 50px;
+}
+
+
+/* SOAL */
+.soal .jml-soal {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--gray);
+    letter-spacing: 0.2em;
+}
+
+.soal .text-soal {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    color: var(--black);
+}
+
+.soal .intruksi {
+    border-radius: 200px;
+    border: 1px solid var(--pink);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: var(--black);
+}
+
+.soal .form-check {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--black);
+    user-select: none;
+}
+
+input + label {
+    cursor: pointer;
+}
+
+.soal button {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 100%;
+    border: 0;
+    border-radius: 50px;
+    background: var(--pink);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 50px;
+    border: 1px solid var(--pink);
+}
+
+.soal button:disabled {
+    border: 1px solid var(--gray);
+    background-color: var(--gray);
+    color: var(--white);
+}
+
+.soal button:hover {
+    border: 1px solid var(--gray);
+    color: var(--white);
+    background-color: #C70657;
+}

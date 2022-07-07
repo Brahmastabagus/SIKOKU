@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --gradient: linear-gradient(115.51deg, #D163D8 11.71%, #602FD3 66.15%);
+    --pink: rgba(255, 71, 148, 1);
+    --black: #303030;
+    --blue: #050039;
+    --gray: #A6A7A9;
+    --white: #FEFEFE;
+    --yellow: rgba(255, 197, 0, 1);
+    --gray-light: rgba(231, 231, 231, 1);
+}
+
+@media (max-width: 575.98px) {
+    nav {
+        margin: 0 0 40px 0;
+    }
+
+    nav .container-fluid {
+        padding: 20px 50px !important;
+    }
+}
+
+@media (min-width: 576px) {
+    nav {
+        margin: 0 0 40px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    nav {
+        margin: 0 0 40px 0;  
+    }
+}
+
+
+@media (min-width: 992px) {
+    nav {
+        margin: 0px 30px 40px 30px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    nav {
+        margin: 0px 30px 40px 30px;
+    }
+}
+
+/* NAVIGASI */
+nav {
+    background: var(--gradient);
+    border-radius: 0px 0px 100px 100px;
+    color: var(--white);
+    padding: 0 !important;
+}
+
+nav .container-fluid {
+    padding: 20px 100px;
+}
+
+span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--yellow);
+}
+
+nav h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+nav .avatar {
+    width: 50px;
+    height: 50px;
+    background-color: var(--black);
+    border-radius: 50px;
+}
+
+/* MAIN */
+main p {
+    color: var(--gray);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+main h5 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+main h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 68px;
+    text-align: center;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+main .garis {
+    width: 70px;
+    height: 4px;
+    background: var(--gradient);
+    border-radius: 200px;
+    margin-bottom: 20px;
+}
+
+main h6 {
+    color: var(--gray);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+main .btn {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 16px 0;
+    border: 1px solid var(--pink);
+    border-radius: 50px;
+    background-color: var(--pink);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--white);
+}
+
+main .btn:hover {
+    border: 1px solid var(--pink);
+    color: var(--white);
+    background-color: #C70657;
+}

@@ -1,0 +1,42 @@
+dashboard
+data table
+striped
+login
+
+guru psikolog soal
+
+Login, Daftar, 
+
+bendera, inbox, lockscreen, search
+
+Tabel tambah kolom aksi (hapus, edit, delete) pakai modal
+
+SIDEBAR
+
+User
+ - Daftar (ada tombol tambah)
+
+Soal
+ - Soal pilgan (ada tombol tambah)
+
+	Step 1 Tambah soal
+	- pertanyaan (text)
+	Step 2 Tambah jawaban
+	- soal_pg_id (input type hidden)
+	- pilihan (text)
+	- value_pilihan (number)
+
+ - Soal 2d (ada tombol tambah)
+Paket soal
+ - Daftar
+ - Tambah paket
+	Data table custom, atasnya ada inputan nama_paket(text), 
+	waktu_pengerjaan(time)
+	user_add(hidden) 
+Transaksi
+ - Daftar 
+
+Batch ujian
+ - Daftar
+ - Tambah batch (waktu_pelaksanaan, input type file buat import excel siswa)
+	Diatas form tambah ada button untuk download format excel
