@@ -36,9 +36,9 @@ h5 {
 }
 
 #btn-back-to-top:hover {
-    background-color: transparent;
-    color: var(--pink);
-    border: 1px solid var(--pink);
+    border: 1px solid #C70657;
+    color: var(--white);
+    background-color: #C70657;
 }
 
 @media (max-width: 575.98px) {
@@ -496,6 +496,13 @@ header p {
     height: 100%;
     padding: 20px;
     border-radius: 4px !important;
+    transition: all .2s;
+}
+
+.tentang .accordion-button:hover .tanda {
+    /* border: 1px solid #C70657; */
+    color: var(--white);
+    background-color: #C70657;
 }
 
 .tentang .accordion-button .tanda.tanda-1 {
@@ -580,12 +587,13 @@ header p {
     line-height: 24px;
     color: var(--white);
     border: 1px solid var(--pink);
+    transition: all .5s;
 }
 
 .fitur .btn:hover {
-    border: 1px solid var(--pink);
-    background-color: transparent;
+    border: 1px solid #C70657;
     color: var(--white);
+    background-color: #C70657;
 }
 
 .fitur .background {
@@ -760,9 +768,9 @@ header p {
 }
 
 .section .btn:first-child:hover {
-    border: 1px solid var(--pink);
-    background-color: transparent;
+    border: 1px solid #C70657;
     color: var(--white);
+    background-color: #C70657;
 }
 
 .section .btn:last-child:hover {
@@ -959,9 +967,9 @@ footer .btn {
 }
 
 footer .btn:hover {
-    border: 1px solid var(--pink);
-    background-color: transparent;
+    border: 1px solid #C70657;
     color: var(--white);
+    background-color: #C70657;
 }
 
 footer p.ms-auto {
